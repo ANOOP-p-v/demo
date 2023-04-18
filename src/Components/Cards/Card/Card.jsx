@@ -4,11 +4,13 @@ import './Card.css'
 function Card() {
   return (
     <>
-  <div className="container">
+  <div className="container1">
+    <h2>Templates</h2>
+    <h3>docs</h3>
     <ul className="cards">
       <li className="card">
         <div>
-          <h3 className="card-title">Service 1</h3>
+          <h3 className="card-title">Template 1</h3>
           <div className="card-content">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
@@ -21,7 +23,7 @@ function Card() {
       </li>
       <li className="card">
         <div>
-          <h3 className="card-title">Service 2</h3>
+          <h3 className="card-title">Template 2</h3>
           <div className="card-content">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
@@ -37,7 +39,7 @@ function Card() {
       </li>
       <li className="card">
         <div>
-          <h3 className="card-title">Service 3</h3>
+          <h3 className="card-title">Template 3</h3>
           <div className="card-content">
             <p>
               Phasellus ultrices lorem vel bibendum ultricies. In hendrerit
@@ -53,7 +55,7 @@ function Card() {
       </li>
       <li className="card">
         <div>
-          <h3 className="card-title">Service 4</h3>
+          <h3 className="card-title">Template 4</h3>
           <div className="card-content">
             <p>
               Aenean posuere mauris quam, pellentesque auctor mi bibendum nec.
@@ -69,7 +71,7 @@ function Card() {
       </li>
       <li className="card">
         <div>
-          <h3 className="card-title">Service 5</h3>
+          <h3 className="card-title">Template 5</h3>
           <div className="card-content">
             <p>
               Vestibulum pharetra fringilla felis sit amet tempor. Interdum et
@@ -86,7 +88,7 @@ function Card() {
       </li>
       <li className="card">
         <div>
-          <h3 className="card-title">Service 6</h3>
+          <h3 className="card-title">Template 6</h3>
           <div className="card-content">
             <p>
               Donec ut tincidunt nisl. Vivamus eget eros id elit feugiat mollis.
@@ -102,7 +104,7 @@ function Card() {
       </li>
       <li className="card">
         <div>
-          <h3 className="card-title">Service 7</h3>
+          <h3 className="card-title">Template 7</h3>
           <div className="card-content">
             <p>
               Aliquam eget nisl auctor, sollicitudin ipsum at, dignissim ligula.
@@ -119,7 +121,7 @@ function Card() {
       </li>
       <li className="card">
         <div>
-          <h3 className="card-title">Service 8</h3>
+          <h3 className="card-title">Template 8</h3>
           <div className="card-content">
             <p>
               {" "}
@@ -136,7 +138,7 @@ function Card() {
       </li>
       <li className="card">
         <div>
-          <h3 className="card-title">Service 9</h3>
+          <h3 className="card-title">Template 9</h3>
           <div className="card-content">
             <p>
               Duis id congue turpis. Donec sodales porta felis, nec ultricies
@@ -153,7 +155,7 @@ function Card() {
       </li>
       <li className="card">
         <div>
-          <h3 className="card-title">Service 10</h3>
+          <h3 className="card-title">Template 10</h3>
           <div className="card-content">
             <p>Pellentesque eget eros eget justo efficitur fermentum.</p>
           </div>
@@ -166,7 +168,7 @@ function Card() {
       </li>
       <li className="card">
         <div>
-          <h3 className="card-title">Service 11</h3>
+          <h3 className="card-title">Template 11</h3>
           <div className="card-content">
             <p>
               Phasellus posuere nec nibh ut tincidunt. Aenean mollis turpis non
@@ -182,7 +184,7 @@ function Card() {
       </li>
       <li className="card">
         <div>
-          <h3 className="card-title">Service 12</h3>
+          <h3 className="card-title">Template 12</h3>
           <div className="card-content">
             <p>
               Vestibulum ante ipsum primis in faucibus orci luctus et ultrices

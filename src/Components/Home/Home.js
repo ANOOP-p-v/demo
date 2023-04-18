@@ -1,10 +1,18 @@
 import React from 'react'
-import Cards from '../Cards/Card'
+import Cards from '../Cards/Card/Card'
+import './Home.css'
 
 function Home() {
   return (
     <div>
-      <Cards/>
+<div className='center'>
+
+</div>
+    <Cards  />
+    <Cards />
+
+    
+      
     </div>
   )
 }
