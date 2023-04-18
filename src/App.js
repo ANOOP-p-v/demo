@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header/Header';
+import { Route, Routes, useLocation } from "react-router-dom";
+import SignIn from './Components/Auth/SignIn/SignIn';
+import SignUp from './Components/Auth/SignUp/SignUp';
+import Home from './Components/Home/Home';
+
 
 function App() {
+  const currentPath = useLocation();
+  alert(currentPath.pathname);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {currentPath.pathname === "/signin" ||
+      currentPath.pathname === "/signup" ? null : (
+        <Header />
+      )}
+      <Routes>
+        <Route exact path="/" element={<Home />}></Route>
+      </Routes>
+      
+      <Routes>
+        <Route exact path="/signin" element={<SignIn />}></Route>
+      </Routes>
+      <Routes>
+        <Route exact path="/signup" element={<SignUp />}></Route>
+      </Routes>
+      
     </div>
   );
 }
